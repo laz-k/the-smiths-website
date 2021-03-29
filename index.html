@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./tailwind.css" />
+		<title>The Smiths | Tribute Site</title>
+	</head>
+	<body class="bg-blueGray-900">
+		<header>
+			<nav
+				class="fixed w-full flex flex-wrap items-center justify-between px-8 bg-blueGray-900 opacity-95 border-white border-b-2 border-opacity-50 z-40"
+			>
+				<div class="container mx-auto flex flex-wrap items-center justify-between">
+					<div
+						class="w-full relative flex justify-between lg:w-auto px-2 lg:static lg:block lg:justify-start"
+					>
+						<a
+							class="text-5xl leading-relaxed inline-block py-2 whitespace-nowrap text-white uppercase font-black tracking-wider"
+							href="#home"
+						>
+							The Smiths
+						</a>
+						<button
+							class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+							type="button"
+						>
+							<span class="block relative w-6 h-px rounded-sm bg-white"></span>
+							<span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+							<span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+						</button>
+					</div>
+					<div class="lg:flex flex-grow items-center" id="example-navbar-warning">
+						<ul class="flex flex-col lg:flex-row list-none ml-auto">
+							<li class="nav-item">
+								<a
+									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+									href="#biography"
+								>
+									Biography
+								</a>
+
+							</li>
+							<li class="nav-item relative group">
+								<a
+									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+									href="#discography"
+								>
+									Discography
+								</a>
+                <ul class="z-50 hidden absolute left-3 top-0 mt-8 p-2 w-auto group-hover:block bg-blueGray-600 rounded">
+                  <svg class="block fill-current text-blueGray-600 w-4 h-4 absolute left-0 top-0 ml-3 -mt-3 z-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path></svg>
+                  <li class="text-white text-sm whitespace-nowrap"><a href="#studio-albums">Studio Albums</a></li>
+                  <li class="text-white text-sm whitespace-nowrap"><a href="#live-albums">Live Albums</a></li>
+                  <li class="text-white text-sm whitespace-nowrap"><a href="#compilation-albums">Compilation Albums</a></li>
+                </ul>
+							</li>
+							<li class="nav-item">
+								<a
+									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+									href="#photos"
+								>
+									Photos
+								</a>
+							</li>
+							<li class="nav-item">
+								<a
+									class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+									href="#videos"
+								>
+									Videos
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section id="home" class="hero 2xl:container flex bg-blueGray-900">
+				<video src="./assets/hero-video.mp4" muted class="w-screen"></video>
+			</section>
+			<section id="biography" class="biography overflow-hidden ">
+        <h2 class="md:text-6xl text-4xl text-white text-center bg-blueGray-900 py-10 md:py-28">Biography</h2>
+        
+        <div class=" flex flex-col bg-right-bottom md:bg-center md:bg-cover md:bg-no-repeat" style="background-image: linear-gradient(rgba(15, 23, 42, 0.5),rgba(15, 23, 42, 0.9) ),url(./assets/images/smiths-background.jpeg);">
+        <!-- <img class="h-full w-full md:opacity-10 z-0 absolute" src="./assets/images/smiths-background.jpeg" alt=""> -->
+				<p class="text-white pt-8 pb-3 px-8 z-30">
+					The Smiths was an English rock band that formed in 1982 and separated in 1987. It was a musical
+					quartet of lads from Manchester, originally founded by two people – Steven Patrick Morrissey (born
+					on May 22 , 1959), the flamboyant and controversial singer and lyricist, and Johnny Marr (born
+					October 31 ,1963), the ground-breaking wizard guitar player. The band lineup was soon after
+					completed by drummer Mike Joyce and bassist Andy Rourke. They made 4 official albums together, and
+					rival The Beatles in terms of popularity in the UK. Of course, the world loves them, too. Morrissey
+					and Johnny Marr (whose real name is Johnny Maher, but he changed it to not be confused with the
+					Buzzcocks drummer) officially met each other on May 20th, 1982, at Morrissey’s home in Stretford
+					(384 Kings Road). They had seen each other previously, at a Patti Smith gig where they were first
+					introduced.
+				</p>
+				<p class="text-white px-8 pb-3 z-30">
+					Before The Smiths came together, Johnny Marr was looking for a good lyricist and singer, having been
+					in a few bands that didn’t work out, and he met with Steven Morrissey, whose lyrics he’d heard
+					through a friend, Billy Duffy, future guitarist for The Cult and former member of a band whose
+					Morrissey was briefly the singer, The Nosebleeds. </p>
+          <p class="text-white px-8 pb-3 z-30">
+            Marr one day showed up on Morrissey’s doorstep to implore him to join his band, which Morrissey
+            eventually agreed. In the beginning, the two songwriting partners were truly on the same wavelength,
+            although Morrissey was several years older than Marr. 
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            Morrissey presented Johnny with some lyrics he wrote, including “Suffer Little Children”, a
+            dark-themed set of lyrics inspired by the infamous Moor murders, and the two worked on several other
+            songs as well, such as the cast off “Don’t Blow Your Own Horn”, and “The Hand that Rocks The
+            Cradle”. 
+            After recording several tracks with Simon “Si” Wolstencroft (future member of The Fall) on drums, Morrissey and Marr recruited drummer Mike Joyce in the fall of 1982 after Wolstencroft failed to show interest in joining the band.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+
+            Joyce was once a member of punk bands The Hoax and Victim. They then recruited as bassist a fellow named Dale Hibbert, who provided the group with the use of the studio where he worked as recording engineer.
+            According to Marr, neither the personality nor the musical style of Hibbert were well suited to the group (Hibbert thinking the band acted too homosexual on stage) and they replaced him after The Smiths’ first concert, which took place at the Manchester Ritz on October 4 , 1982, put on by a friend of Marr, Andy Rourke. 
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            The group was to be called The Smiths, from that point on. According to Marr: “We wanted a very normal name…not something that would have sounded like space men or that kind of bullshit”.  It was also around this time that Steven Morrissey became simply “Morrissey”, and forbade people from calling him Steven, which he always hated.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+
+            The band were beginning to gig more, and had a new swath of demos, including “Miserable Lie”, “Handsome Devil”, and “What Difference Does It Make?”  They used this demo to hopefully get signed by EMI, but they were declined.  Not deterred entirely from making it to the bigtime, they then approached the indie label, Rough Trade. 
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            
+            Their first single, “Hand in Glove”, was released in May of 1983 on Rough Trade, who had agreed to cut that single only and see where it went from there.  The single did not chart, but it made an impact nonetheless, with its evocative cover art suggesting homoeroticism. In turn, this small buzz lead to them appearing on John Peel, who loved the band, and eventually having their first interviews with Sounds and NME.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            “Hand In Glove” was then followed by “This Charming Man”, which reached number 25 on the British charts in November 1983, and then “What Difference Does It Make?”, reaching number 12 in January of 1984.  It was at this time that The Smiths started cracking the chart positions and gaining a fan base. In February 1984, their first album, simply dubbed The Smiths, sold 300,000 copies, taking second place on the British charts. Two songs, “Reel Around the Fountain” and “The Hand That Rocks the Cradle” were considered controversial, because some tabloids claim that they evoked pedophilia, an assertion vigorously denied by the group.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            Around this time, The Smiths toured a lot in the UK, but rarely in the rest of Europe (for instance, their concerts in Paris on May 9th, 1984 at the Eldorado, and on the 1st of December that same year at the Exhibition Center, Porte de Versailles, are the only French dates in the history of the Smiths). 
+            In late 1984, The Smiths released their first compilation, called “Hatful of Hollow”, featuring singles, B-sides, and songs recorded for the BBC.  At this time, The Smiths was voted best group of 1984 by the readers of the NME (a title that the group took every year until their break up in 1987). 
+            In 1985, the band released their second album, the socially conscious “Meat Is Murder”. At this time, the band was touring extensively in the UK and the US and were working on their next studio album, the eventual classic, “The Queen Is Dead”. 
+            Meanwhile, controversy abounded as Morrissey said and did things to draw attention to the group, such as make provocative statements of all kinds to the media, arousing their ire while simultaneously giving them things to talk about. 
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            However, the group was having a number of difficulties. A dispute with Rough Trade delayed the album, completed in November 1985, by almost seven months, and Marr begins to feel stress due to an exhausting schedule: many recordings, and tours. He will say later: “I was very sick … I drank more than I could handle”. Andy Rourke was fired from the group in early 1986 because of heroin use. Andy received the notice of his dismissal by a post-it glued to the windshield of his car, penned by Morrissey.  Andy still claims that this happened, while Morrissey denies it.
+            Rourke was replaced by Craig Gannon (former guitarist of Aztec Camera and The Bluebells), but was restored to his original position after a fortnight. As a quintet, with Gannon on rhythm guitar, The Smiths recorded the singles “Panic” and “Ask” (with Kirsty MacColl on chorus), and did concerts in the United Kingdom and the United States. Gannon left the group in October of 1986.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            “The Queen Is Dead” was released in June 1986 with Alain Delon on the cover of the album. This album would go on to be what many consider to be their crowning achievement (no pun intended), with many of their most beloved songs on the album, with perhaps “There Is A Light And It Never Goes Out” being perhaps the perennial Smiths track. <br><br>
+            At the end of 1986, the band changed labels and, after some tug of war between labels, The Smiths ended up with their original dream label, EMI, stirring the brewing discontentment among fans and media alike.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            The Smiths put out two new singles (“Shoplifters of the World Unite” in January and “Sheila Take a Bow” in April), performing at the San Remo Festival in May, but it seems that at this time, the man behind the guitar sound of The Smiths, one Johnny Marr, was severing his ties with the band.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            The guitarist felt stifled in a band which was, at that time, focused mainly on Morrissey’s persona. Also, Johnny’s enthusiasm for other forms of music such as dance and electro did not find a field of expression: “The Smiths had become a kind of club where all new influences were discredited, even taboo,” he confided to Johnny Rogan for his book on the Smiths, “Morrissey and Marr”: The Severed Alliance (1992).
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            The August 8 , 1987, Johnny Marr announced that he left the group by sending a message to the NME: “What in the past made me happy makes me unhappy, I had to leave”.
+            So, “posthumously”, The Smiths released on September 28th, 1987, their last album, “Strangeways, Here We Come”.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            As an epitaph, the band decided to release a live album called “Rank” (1988) from a concert given at the National Ballroom in Kilburn on October 23, 1986.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            Although their level of commercial success was relatively modest in their day, The Smiths became one of the most celebrated groups in the British rock pantheon. According to the BBC, it is “the group that inspires a deeper devotion than any British band since the Beatles”.  According to music journalist Simon Goddard, the band is “the most influential guitar band of the 1980s”.
+          </p>
+          <p class="text-white px-8 pb-3 z-30">
+            In 2002, The Smiths were named the most important musical artist of all time in a survey conducted by NME. In 2013, The Queen Is Dead was voted best album of all time by NME as well. In both cases, The Beatles took second place.
+          </p>
+          <p class="text-white px-8 pb-3 z-30"></p>
+				
+			</section>
+
+      
+			<section id="discography" class="flex flex-col place-content-center mx-auto z-20">
+				<h2 class="md:text-6xl text-4xl text-white text-center bg-blueGray-900 py-10 md:py-28">Discography</h2>
+				<div class="flex flex-col place-content-center bg-blueGray-700 p-20 box-border z-20">
+					<h4 id="studio-albums" class="flex self-center justify-center bg-blueGray-900 text-white md:w-1/3 p-2 text-2xl">Studio Albums</h4>
+					<ul class="text-white flex flex-wrap place-content-center bg-blueGray-500">
+						<div
+							class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+						>
+							<a href="https://en.wikipedia.org/wiki/The_Smiths_(album)" target="_blank">
+								<img
+									class="border-black w-72 border-2 hover:border-4"
+									src="./assets/images/The_Smiths_cover.jpeg"
+									alt="The Smiths album cover"
+								/>
+							</a>
+							<li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+								<a href="https://en.wikipedia.org/wiki/The_Smiths_(album)" target="_blank">
+									<p class="pt-3">The Smiths (1984)</p>
+								</a>
+							</li>
+						</div>
+						<div
+							class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+						>
+							<a href="https://en.wikipedia.org/wiki/Meat_Is_Murder" target="_blank">
+								<img
+									class="border-black w-72 border-2 hover:border-4"
+									src="./assets/images/Meat-is-Murder-cover.jpeg"
+									alt="Meat is murder album cover"
+								/>
+							</a>
+							<li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+								<a href="https://en.wikipedia.org/wiki/Meat_Is_Murder" target="_blank">
+									<p class="pt-3">Meat Is Murder (1985)</p></a
+								>
+							</li>
+						</div>
+						<div
+							class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+						>
+							<a href="https://en.wikipedia.org/wiki/The_Queen_Is_Dead" target="_blank">
+								<img
+									class="border-black w-72 border-2 hover:border-4"
+									src="./assets/images/The-Queen-is-Dead-cover.png"
+									alt="The queen is dead album cover"
+								/>
+							</a>
+							<li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+								<a href="https://en.wikipedia.org/wiki/The_Queen_Is_Dead" target="_blank">
+									<p class="pt-3">Queen Is Dead (1986)</p></a
+								>
+							</li>
+						</div>
+						<div
+							class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+						>
+							<a href="https://en.wikipedia.org/wiki/Strangeways,_Here_We_Come" target="_blank">
+								<img
+									class="border-black w-72 border-2 hover:border-4"
+									src="./assets/images/Strangeways_here_we_come_cover.jpeg"
+									alt="Strangeways here we come album cover"
+								/>
+							</a>
+							<li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+								<a href="https://en.wikipedia.org/wiki/Strangeways,_Here_We_Come" target="_blank">
+									<p class="pt-3">Strangeways, Here We Come (1987)</p></a
+								>
+							</li>
+						</div>
+					</ul>
+					<h4 id="live-albums" class="flex self-center justify-center text-2xl bg-blueGray-900 text-white md:w-1/3 p-2 ">Live Albums</h4>
+          <ul class="text-white flex flex-wrap place-content-center">
+
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Rank_(album)" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/Rank-cover.jpeg"
+              alt="Rank album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Rank_(album)" target="_blank">
+                <p class="pt-3">Rank (1988)</p></a
+                >
+              </li>
+            </div>
+          </ul>
+					<h4 id="compilation-albums" class="flex self-center justify-center text-2xl bg-blueGray-900 text-white md:w-1/3 p-2">Compilation Albums</h4>
+          <ul class="text-white flex flex-wrap place-content-center">
+
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Hatful_of_Hollow" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/HatfulofHollow-cover.jpeg"
+              alt="Hatful of hollow album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Hatful_of_Hollow" target="_blank">
+                <p class="pt-3">Hatful of Hollow (1984)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/The_World_Won%27t_Listen" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/TWWL-cover.jpeg"
+              alt="Hatful of hollow album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/The_World_Won%27t_Listen" target="_blank">
+                <p class="pt-3">The World Won't Listen (1987)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Louder_Than_Bombs" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/LouderThanBombs-cover.jpeg"
+              alt="Louder than bombs album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Louder_Than_Bombs" target="_blank">
+                <p class="pt-3">Louder Than Bombs (1987)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Best..._I" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/UKBest1.jpeg"
+              alt="Best I album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Best..._I" target="_blank">
+                <p class="pt-3">Best...I (1992)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/...Best_II" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/UKBest2.jpeg"
+              alt="Best II album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/...Best_II" target="_blank">
+                <p class="pt-3">Best...II (1992)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Singles_(The_Smiths_album)" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/SmithsSingles-cover.jpeg"
+              alt="Singles album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Singles_(The_Smiths_album)" target="_blank">
+                <p class="pt-3">Singles (1995)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/The_Very_Best_of_The_Smiths" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/SmithsVeryBest-cover.jpeg"
+              alt="The very best of the smiths album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/The_Very_Best_of_The_Smiths" target="_blank">
+                <p class="pt-3">The Very Best of The Smiths (2001)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/The_Sound_of_The_Smiths" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/SoundOfTheSmiths-cover.jpeg"
+              alt="The sound of the smiths album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/The_Sound_of_The_Smiths" target="_blank">
+                <p class="pt-3">The Sound of The Smiths (2008)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/The_Smiths_Singles_Box" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/Singles_Box_cover.jpeg"
+              alt="The sound of the smiths album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/The_Smiths_Singles_Box" target="_blank">
+                <p class="pt-3">Singles Box (2008)</p></a
+                >
+              </li>
+            </div>
+            <div
+            class="flex flex-col items-center place-content-evenly p-6 m-6 shadow-md bg-white md:w-2/5 lg:w-auto"
+            >
+            <a href="https://en.wikipedia.org/wiki/Complete_(The_Smiths_album)" target="_blank">
+              <img
+              class="border-black w-72 border-2 hover:border-4"
+              src="./assets/images/Complete_cover.jpeg"
+              alt="The sound of the smiths album cover"
+              />
+            </a>
+            <li class="text-blueGray-900 hover:text-red-900 hover:font-extrabold">
+              <a href="https://en.wikipedia.org/wiki/Complete_(The_Smiths_album)" target="_blank">
+                <p class="pt-3">Complete (2011)</p></a
+                >
+              </li>
+            </div>
+          </ul>
+				</div>
+			</section>
+		</main>
+    <footer class="z-50 w-full p-5 flex justify-center items-baseline  bottom-0 bg-blueGray-900 ">
+      <p class="text-white text-center" >Laz-K 2021</p>
+    </footer>
+	</body>
+  </html>
+  
