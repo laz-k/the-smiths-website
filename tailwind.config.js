@@ -25,6 +25,10 @@ module.exports = {
 		boxShadow: {
 			primary: "5px 5px 5px -2px rgba(0,0,0,0.7)",
 		},
+		rotate:{
+			'30': '30deg',
+			'31': '31deg'
+		},
 		extend: {
 			backgroundImage: theme => ({
 				"site-background": "url('./assets/images/smiths-background.jpeg')",
